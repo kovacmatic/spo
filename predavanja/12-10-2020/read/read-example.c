@@ -18,6 +18,7 @@ void main()
 
     n = read(fd, buf, 10);
     printf("n: %d\n", n);
+    printf("buf: %s\n", buf);
 
     close(fd);
 }

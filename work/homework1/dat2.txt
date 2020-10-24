@@ -1,0 +1,14 @@
+Naloga 1
+
+Napišite program v C-ju, ki kopira eno datoteko v drugo. Imeni
+obeh datotek sta podani kot argumenta ukazne vrstice.
+Kopirajte datoteko po en blok (512 bajtov) naenkrat.
+
+Če ponorna (ciljna) datoteka ne obstaja, naj jo program
+ustvari. Če obstaja, naj jo prepiše.
+
+Pred kopiranjem preverite:
+• ali ima program 2 argumenta,
+• ali je prva datoteka berljiva (jo lahko odpremo za branje?) in
+• ali je druga datoteka zapisljiva (jo lahko opremo za pisanje?),
+• sicer izpišite ustrezno sporočilo in zaključite program.
