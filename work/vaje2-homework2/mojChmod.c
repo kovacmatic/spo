@@ -67,7 +67,6 @@ void modifyPermissions(const char *inputDIRName, const char *inputPermissions) {
 
     if (isInputDigit(inputPermissions)) { // check if permissions is number only
         permissions = strtol(inputPermissions, NULL, 8);
-        printf("%d\n", (int)permissions);
         setPermissions(inputDIRName, permissions);
     } else {
         if (strcmp(inputPermissions, "u+s") == 0) { // set Set-User-ID
