@@ -56,7 +56,7 @@ int main(int argc, char const *argv[])
 
             execvp(argsArray[0], argsArray);
             perror(argsArray[0]);
-        } else { // executing main process logic
+        } else { // executing parent process logic
             wait(NULL); // wait to child completes
         }
     }
