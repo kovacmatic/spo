@@ -16,6 +16,8 @@
 // dobi string length - strlen 
 // primerjava stringov - strcmp(inputPermissions, "u+s") == 0 ;  0 - success
 
+
+
 #define error(message) { fprintf(stderr, "%s\n", message); exit(1); }
 // #define VAR VALUE
 
